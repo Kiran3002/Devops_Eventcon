@@ -32,7 +32,6 @@ def submit():
     # Connect to the database
     conn = connect_to_db()
     cur = conn.cursor()
-
     # Extract form data
     name = request.form['name']
     email = request.form['email']
@@ -40,7 +39,7 @@ def submit():
     message = request.form['message']
 
     # Insert data into the table
-    cur.execute("INSERT INTO contact_detail (name, email, subject, message) VALUES (%s, %s, %s, %s)", (name, email, subject, message))
+    cur.execute("INSERT INTO contact_details (name, email, subject, message) VALUES (%s, %s, %s, %s)", (name, email, subject, message))
 
     # Commit changes
     conn.commit()

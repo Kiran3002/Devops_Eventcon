@@ -4123,7 +4123,7 @@ h6 {
 /* line 14, ../../Arafath/CL/December/236. Event-02/HTML/scss/_blog.scss */
 .blog_area a:hover, .blog_area a :hover {
   background: -webkit-linear-gradient(131deg, #FF4533 0%, #FF4533 99%);
-  -webkit-background-clip: text;
+  
   -webkit-text-fill-color: transparent;
   text-decoration: none;
   -webkit-transition: 0.5s;
@@ -4187,7 +4187,7 @@ h6 {
 .single-blog .tag {
   text-align: left;
   display: inline-block;
-  float: left;
+  
   font-size: 13px;
   font-weight: 300;
   margin-right: 22px;
@@ -5615,7 +5615,7 @@ h6 {
 /* line 76, ../../Arafath/CL/December/236. Event-02/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body a:hover {
   background: -webkit-linear-gradient(131deg, #ff7e5f 0%, #feb47b 99%);
-  -webkit-background-clip: text;
+  
   -webkit-text-fill-color: transparent;
 }
 
@@ -5723,9 +5723,9 @@ h6 {
   -webkit-transition: 0.8s;
   transition: 0.8s;
   background: -webkit-linear-gradient(131deg, #feb47b 0%, #ff7e5f 99%);
-  -webkit-background-clip: text;
+ 
   -webkit-text-fill-color: transparent;
-  -webkit-animation: 1s;
+ 
 }
 
 /* line 150, ../../Arafath/CL/December/236. Event-02/HTML/scss/_blog_part.scss */
